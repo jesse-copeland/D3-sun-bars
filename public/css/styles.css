@@ -1,0 +1,14 @@
+body {
+  height: 100%;
+  background: #8e9dbf;
+}
+
+.chart rect {
+  fill: steelblue;
+}
+
+.chart text {
+  fill: white;
+  font: 10px sans-serif;
+  text-anchor: end;
+}
