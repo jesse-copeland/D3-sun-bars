@@ -1,14 +1,29 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:600,400);
+
 body {
   height: 100%;
-  background: #8e9dbf;
+  background: #BDBDBD;
+
+  font: 16px/1 "Open Sans", sans-serif;
+  color: #555;
 }
 
-.chart rect {
-  fill: steelblue;
+.container  {
+  width: 600px;
+  margin: auto;
+}
+
+.slider-ctrl {
+  margin-bottom: 15px;
+  width: 600px;
 }
 
 .chart text {
   fill: white;
   font: 10px sans-serif;
   text-anchor: end;
+}
+
+svg {
+  border: 4px solid #555;
 }
